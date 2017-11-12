@@ -22,3 +22,12 @@ body {
 .center-text {
 	text-align: center;
 }
+
+.padding-both-sides {
+	padding: 0px 25px 0px 25px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: white;
+	text-decoration: none;
+}
