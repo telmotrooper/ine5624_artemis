@@ -3,6 +3,14 @@ body {
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-	color: #00B7FF;
+.flex-container {
+	display: flex;
+}
+
+.flex-vertical-center {
+	align-items: center;
+}
+
+.flex-horizontal-center {
+	justify-content: center;
 }

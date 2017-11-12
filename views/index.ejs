@@ -2,10 +2,28 @@
 <html>
 	<head>
 		<title><%= title %></title>
+
+		<!-- 3rd party dependencies -->
+		<script src="/javascripts/jquery-3.2.1.min.js"></script>
+		<script src="/javascripts/bootstrap.min.js"/></script>
+		<link rel="stylesheet" href="/stylesheets/bootstrap.min.css"/>
+		<link rel="stylesheet" href="/stylesheets/font-awesome.min.css"/>
+
+		<!-- 1st party dependencies -->
 		<link rel="stylesheet" href="/stylesheets/style.css" />
 	</head>
 	<body>
-		<h1><%= title %></h1>
-		<p>Welcome to <%= title %></p>
+		<div class="flex-container flex-vertical-center" style="justify-content: right;">
+			<span style="padding: 5px;"><strong>Idioma:</strong></span>
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Português do Brasil
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">English</a></li>
+					<li><a href="#">Español</a></li>
+				</ul>
+			</div>
+		</div>
 	</body>
 </html>
