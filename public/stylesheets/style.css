@@ -1,16 +1,24 @@
 body {
 	padding: 50px;
-	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 .flex-container {
 	display: flex;
 }
 
+.flex-horizontal-center {
+	justify-content: center;
+}
+
 .flex-vertical-center {
 	align-items: center;
 }
 
-.flex-horizontal-center {
-	justify-content: center;
+.big-icon {
+	font-size: 100px;
+}
+
+.center-text {
+	text-align: center;
 }
