@@ -31,3 +31,7 @@ a:link, a:visited, a:hover, a:active {
 	color: white;
 	text-decoration: none;
 }
+
+.title-padding {
+	padding-bottom: 25px;
+}
