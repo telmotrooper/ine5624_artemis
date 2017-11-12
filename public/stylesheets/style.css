@@ -39,3 +39,8 @@ a:link, a:visited, a:hover, a:active {
 .title-padding {
 	padding-bottom: 25px;
 }
+
+.scrollable {
+    height: 390px;
+    overflow-y: auto;
+}
