@@ -10,7 +10,9 @@
 		<link rel="stylesheet" href="/stylesheets/font-awesome.min.css"/>
 
 		<!-- 1st party dependencies -->
+		<script src="/javascripts/artemis.js" /></script>
 		<link rel="stylesheet" href="/stylesheets/style.css" />
+		
 	</head>
 	<body>
 		<div class="flex-container flex-vertical-center" style="justify-content: right;">
@@ -21,34 +23,55 @@
 
 		<div class="flex-container flex-horizontal-center center-text">
 			<div class="padding-both-sides">
-				<a href="/pictures/">
+				<a data-toggle="modal" data-target="#refreshing-products">
 					<i class="fa fa-save big-icon"></i>
 					<h2>Cartão</h2>
 				</a>
 			</div>
 			<div class="padding-both-sides">
-				<a href="/pictures/">
+				<a data-toggle="modal" data-target="#refreshing-products">
 					<i class="glyphicon glyphicon-cd big-icon"></i>
 					<h2>CD / DVD</h2>
 				</a>
 			</div>	
 			<div class="padding-both-sides">
-				<a href="/pictures/">
+				<a data-toggle="modal" data-target="#refreshing-products">
 					<i class="fa fa-usb big-icon"></i>
 					<h2>USB</h2>
 				</a>
 			</div>
 			<div class="padding-both-sides">
-				<a href="/pictures/">
+				<a data-toggle="modal" data-target="#refreshing-products">
 					<i class="fa fa-wifi big-icon"></i>
 					<h2>Wi-Fi</h2>
 				</a>
 			</div>
 			<div class="padding-both-sides">
-				<a href="/pictures/">
+				<a data-toggle="modal" data-target="#refreshing-products">
 					<i class="fa fa-bluetooth big-icon"></i>
 						<h2>Bluetooth</h2>
 					</a>
+			</div>
+		</div>
+
+		<!-- Refreshing products modal -->
+		<div id="refreshing-products" class="modal fade" role="dialog" data-keyboard="false" data-backdrop="static">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<center>
+							<div class="lds-css ng-scope">
+								<div class="lds-dual-ring">
+									<div></div>
+								</div>
+							</div>
+						</center>
+
+						<h4>
+							<b>Carregando fotos...</b>
+						</h4>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
