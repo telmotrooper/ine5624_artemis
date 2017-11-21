@@ -56,6 +56,17 @@ a:link, a:visited, a:hover, a:active {
     width: 50%;
 }
 
+.logo {
+	border-radius: 50%;
+	width: 150px;
+}
+
+.selected-photo {
+	border-color: green;
+	border-style: solid;
+	border-width: 3px;
+}
+
 /* Loading animation */
 @keyframes lds-dual-ring {
   0% {
