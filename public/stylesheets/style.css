@@ -34,6 +34,11 @@ body {
 a:link, a:visited, a:hover, a:active {
 	color: white;
 	text-decoration: none;
+
+	outline: 0;
+  	border: none;
+	-moz-outline-style: none;
+	outline-style: none;
 }
 
 .title-padding {
