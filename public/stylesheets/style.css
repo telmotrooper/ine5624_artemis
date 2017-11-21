@@ -51,3 +51,7 @@ a:link, a:visited, a:hover, a:active {
 	max-height: 145px;
 	max-width: 200px;
 }
+
+.img-thumbnail-percentage-50 {
+    width: 50%;
+}
